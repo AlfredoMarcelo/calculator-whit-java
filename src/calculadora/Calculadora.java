@@ -22,9 +22,16 @@ public class Calculadora {
 		case "multiplicar":
 			resultado = multiplicar(numUno, numDos);
 			break;
-
-		default:
+		case "dividir":
+			resultado = dividir(numUno,numDos);
 			break;
+		default:
+			System.out.println("!Debe ingresar la operación correctamente¡");
+			break;
+			
+			
+			
+			
 		}
 		System.out.println("El resultado es " + resultado);
 		
@@ -41,5 +48,10 @@ public class Calculadora {
 	public static int multiplicar (int numeroUno, int numeroDos) {
 		return numeroUno * numeroDos;
 	}
-
+	
+	public static int dividir (int numeroUno, int numeroDos) {
+		return numeroUno / numeroDos;
+	}
+	
+	
 }
