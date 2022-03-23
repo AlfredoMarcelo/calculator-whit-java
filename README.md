@@ -1,6 +1,6 @@
 # Calculadora📠 con Java☕
 
-_Aplicación de calculadora que tiene las operaciones de suma, resta y multiplicación.
+_Aplicación de calculadora que tiene las operaciones de suma, resta, división y multiplicación.
 Entra en la carpeta /src📁, /calculadora📁 y comienza a ver el proyecto 🤳🏽._
 
 
